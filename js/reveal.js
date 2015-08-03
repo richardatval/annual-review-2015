@@ -35,8 +35,8 @@
 
 			// The "normal" size of the presentation, aspect ratio will be preserved
 			// when the presentation is scaled to fit different resolutions
-			width: 960,
-			height: 700,
+			width: 800,
+			height: 800,
 
 			// Factor of the display size that should remain empty around the content
 			margin: 0.1,
@@ -67,7 +67,7 @@
 			overview: true,
 
 			// Vertical centering of slides
-			center: true,
+			center: false,
 
 			// Enables touch navigation on devices with touch input
 			touch: true,

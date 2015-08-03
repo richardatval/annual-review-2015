@@ -20,59 +20,234 @@
 
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'Helvetica Neue', sans-serif;
+$mainFont: 'Helvetica Neue', Arial, sans-serif;
 $mainColor: #000;
-$headingFont: 'Helvetica Neue', Impact, sans-serif;
+$headingFont: 'Helvetica Neue', Arial, sans-serif;
 $headingColor: #000;
 $headingTextShadow: none;
 $headingFontWeight: 100;
 $headingTextTransform: none;
 $headingLineHeight: 1;
-$backgroundColor: #ff9400;
-$linkColor: #00008B;
+$backgroundColor: whitesmoke;
+$linkColor: #000;
 $linkColorHover: lighten( $linkColor, 20% );
 $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 
+/*********************************************
+* COLOR VARIABLES
+*********************************************/
 
+$dark-blue: #0054a5;
+$light-orange: #f9a81d;
+$hibiscus: #cc3366;
+$light-blue: #3fc1eb;
+$turquoise: #32bca5;
+$orange: #F29B36;
 
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
 
 .reveal {
-	.progress {
-		height: 20px;
-		span {
-			background: #00008B;
-		}
-	}
 	.controls {
-		bottom: 30px;
+		width: 100%;
+		bottom: 45%;
 		div.navigate-left {
-			border-right-width: 15px;
+			height: 52px;
+			width: 30px;
+			background: url("../../images/navigate-left.png") no-repeat center center;
+			left: 2%;
+			border: 0;
 			&.enabled {
-				border-right-color: #00008B;
+				border-right-color: $linkColor;
 			}			
 		}
 		div.navigate-right {
-			left: 81px;
-			border-left-width: 15px;
+			height: 52px;
+			width: 30px;
+			background: url("../../images/navigate-right.png") no-repeat center center;
+			left: 97%;
+			border: 0;
 			&.enabled {
-				border-left-color: #00008B;
+				border-left-color: $linkColor;
 			}		
 		}
 		div.navigate-up {
-			border-bottom-width: 15px;
-			&.enabled {
-				border-bottom-color: #00008B;
-			}		
+			display: none;
 		}
 		div.navigate-down {
-			border-top-width: 15px;
-			top: 81px;
-			&.enabled {
-				border-top-color: #00008B;
-			}		
+			display: none;	
 		}
 	}
+}
+
+/*********************************************
+* IMAGES
+*********************************************/
+.reveal section img {
+	margin: 15px 0px;
+	background: none;
+	border: 0;
+	box-shadow: none}
+
+	/*********************************************
+	* Buttons
+	*********************************************/
+	
+	a.btn {
+		font-weight: bold;
+		font-size: 75%;
+		padding: 10px 20px;
+		margin: 10px;
+		background: black;
+		border-radius: 5px;
+		color: #fff;
+		text-transform: capitalize;
+		&:hover {
+			color: #fff;
+		}
+	}
+
+	input {
+		font-size: 100%;
+		font-family: $mainFont;
+	}
+
+	// Animations
+
+	@keyframes example {
+		0% {scale: 0;}
+		0% {scale: 1;}
+	}
+
+	.hellothere h1 {
+		animation-name: example;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+	}
+
+	// Progress Bars
+
+	@keyframes baranimate {
+		0% {width: 0;}
+		25% {width: 0;}
+	}
+
+	@-webkit-keyframes baranimate {
+		0% {width: 0;}
+		25% {width: 0;}
+	}
+
+	.charts {
+		dt { float: left;}
+
+		div.bar {
+			margin-left: 60px;
+			margin-bottom: 10px;
+			color: #000;
+			padding: 4px;
+			text-align: left;
+			background-color: #FFF;
+			animation-name: baranimate;
+			animation-duration: 5s;
+			animation-iteration-count: 1;
+			-webkit-animation-name: baranimate;
+			-webkit-animation-duration: 5s;
+			-webkit-animation-iteration-count: 1;
+		}
+	}
+	
+	/*********************************************
+	* CAPTION
+	*********************************************/
+	
+	
+	.reveal div.caption-bottom {
+		margin-top: 40%;
+		padding: 40px;
+		background-color: $backgroundColor;
+	}
+	
+	.reveal div.caption-top {
+		top: 50%;
+		margin-top: -380px;
+		padding: 40px;
+		background-color: $backgroundColor;
+	}
+
+	.reveal div.box-left {
+		width: 50%;
+		padding: 40px;
+		background-color: $backgroundColor;
+	}
+
+	.reveal div.dark-blue {
+		background-color: $dark-blue;
+		color: #fff;
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
+	}
+
+	.reveal div.light-orange {
+		background-color: $light-orange;
+	}
+
+	.reveal div.hibiscus {
+		background-color: $hibiscus;
+		color: #fff;
+		h1, h2, h3, h4, h5, h6 {
+			color: #fff;
+		}
+	}
+
+	.reveal div.light-blue {
+		background-color: $light-blue;
+	}
+
+	.reveal div.turquoise {
+		background-color: $turquoise;
+	}
+
+	.reveal div.orange {
+		text-align: left;
+		padding-left: 170px;
+		background-color: $orange;
+		background-position: 40px 40px;
+		background-repeat: no-repeat;
+	    background-image: url(../../images/val-logo-svg-fallback.png);
+	    background-image: 
+	      linear-gradient(transparent, transparent),
+	      url(../../images/val-logo.svg);
+		color: #fff;
+			span.organisation-name {color: #fff;font-size: 35%; clear: both; display: block;}
+			span.publication-name {	color: #fff;font-size: 61%; font-weight: bold;clear: both; display: block;}
+			span.publication-date {	color: #fff;font-size: 61%; color: #000;clear: both; display: block;}
+	}
+
+	/*********************************************
+	* THEMES
+	*********************************************/
+	
+	/*********************************************
+	* CUSTOM SLIDES
+	*********************************************/
+  
+	.libraries-map {
+		.reveal ul {
+			width: 27%;
+			float: left;
+			margin-right: 1%;
+		}
+	}
+  
+	.has-dark-background {
+		h1, h2, h3, h4, h5, h6 { 
+		color: #fff;
+	}
+	color: #fff;
+}
+	  
+.cover .reveal {
+	background: #f38a00;
 }
