@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
+@import url(http://fast.fonts.net/cssapi/60206816-fffa-4ade-a11a-d40b9dba4018.css);
 /**
 * A simple theme for reveal.js presentations, similar
 * to the default theme. The accent color is darkblue.
@@ -19,7 +18,7 @@ body {
   font-weight: 100; }
 
 .reveal {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'HelveticaNeueW01-Thin', 'Helvetica Neue', Arial, sans-serif;
   font-size: 36px;
   color: #000; }
 
@@ -306,7 +305,7 @@ body {
 	* Buttons
 	*********************************************/
 a.btn {
-  font-weight: bold;
+  font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
   font-size: 75%;
   padding: 10px 20px;
   margin: 10px;
@@ -319,7 +318,7 @@ a.btn {
 
 input {
   font-size: 100%;
-  font-family: 'Helvetica Neue', Arial, sans-serif; }
+  font-family: 'HelveticaNeueW01-Thin', 'Helvetica Neue', Arial, sans-serif; }
 
 @keyframes example {
   0% {
@@ -423,9 +422,9 @@ input {
   .reveal div.val-orange span.publication-name {
     color: #fff;
     font-size: 61%;
-    font-weight: bold;
     clear: both;
-    display: block; }
+    display: block;
+    font-family: 'HelveticaNeueW01-75Bold'; }
   .reveal div.val-orange span.publication-date {
     color: #fff;
     font-size: 61%;

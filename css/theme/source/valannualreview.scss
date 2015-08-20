@@ -12,15 +12,11 @@
 @import "../template/settings";
 // ---------------------------------------------
 
-
-
 // Include theme-specific fonts
-@import url(https://fonts.googleapis.com/css?family=News+Cycle:400,700);
-@import url(https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic);
-
+@import url(http://fast.fonts.net/cssapi/60206816-fffa-4ade-a11a-d40b9dba4018.css);
 
 // Override theme settings (see ../template/settings.scss)
-$mainFont: 'Helvetica Neue', Arial, sans-serif;
+$mainFont: 'HelveticaNeueW01-Thin', 'Helvetica Neue', Arial, sans-serif;
 $mainColor: #000;
 $headingFont: 'Helvetica Neue', Arial, sans-serif;
 $headingColor: #000;
@@ -95,7 +91,7 @@ $orange: #F29B36;
 	*********************************************/
 	
 	a.btn {
-		font-weight: bold;
+		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 		font-size: 75%;
 		padding: 10px 20px;
 		margin: 10px;
@@ -225,7 +221,7 @@ $orange: #F29B36;
 		url(../../images/val-logo.svg);
 		color: #fff;
 		span.organisation-name {color: #fff;font-size: 35%; clear: both; display: block;}
-		span.publication-name {	color: #fff;font-size: 61%; font-weight: bold;clear: both; display: block;}
+		span.publication-name {	color: #fff;font-size: 61%;clear: both; display: block; font-family: 'HelveticaNeueW01-75Bold';}
 		span.publication-date {	color: #fff;font-size: 61%; clear: both; display: block;}
 	}
 	
@@ -239,9 +235,7 @@ $orange: #F29B36;
 		height: 400px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/county-map-svg-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/county-map.svg); 
+		background-image: linear-gradient(transparent, transparent), url(../../images/county-map.svg);
 	}
 
 	.volunteer-icon {
@@ -250,9 +244,7 @@ $orange: #F29B36;
 		height: 162px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/volunteer-icon-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/volunteer-icon.svg);
+		background-image: linear-gradient(transparent, transparent),url(../../images/volunteer-icon.svg);
 	}
 	
 	.groups-icon {
@@ -261,9 +253,7 @@ $orange: #F29B36;
 		height: 162px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/groups-icon-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/groups-icon.svg);
+		background-image: linear-gradient(transparent, transparent), url(../../images/groups-icon.svg);
 	}
 	
 	.money-icon {
@@ -272,9 +262,7 @@ $orange: #F29B36;
 		height: 162px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/money-icon-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/money-icon.svg);
+		background-image: linear-gradient(transparent, transparent), url(../../images/money-icon.svg);
 	}
 	
 	.time-icon {
@@ -283,9 +271,7 @@ $orange: #F29B36;
 		height: 162px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/time-icon-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/time-icon.svg);
+		background-image: linear-gradient(transparent, transparent), url(../../images/time-icon.svg);
 	}
 	
 	.plane-icon {
@@ -294,9 +280,7 @@ $orange: #F29B36;
 		height: 162px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/plane-icon-fallback.png);
-		background-image: 
-		linear-gradient(transparent, transparent),
-		url(../../images/plane-icon.svg);
+		background-image: linear-gradient(transparent, transparent), url(../../images/plane-icon.svg);
 	}
 	
 	
