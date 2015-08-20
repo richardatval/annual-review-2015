@@ -404,6 +404,9 @@ input {
   background-color: #32bca5; }
 
 .reveal div.orange {
+  background-color: #F29B36; }
+
+.reveal div.val-orange {
   text-align: left;
   padding-left: 170px;
   background-color: #F29B36;
@@ -412,23 +415,59 @@ input {
   background-image: url(../../images/val-logo-svg-fallback.png);
   background-image: linear-gradient(transparent, transparent), url(../../images/val-logo.svg);
   color: #fff; }
-  .reveal div.orange span.organisation-name {
+  .reveal div.val-orange span.organisation-name {
     color: #fff;
     font-size: 35%;
     clear: both;
     display: block; }
-  .reveal div.orange span.publication-name {
+  .reveal div.val-orange span.publication-name {
     color: #fff;
     font-size: 61%;
     font-weight: bold;
     clear: both;
     display: block; }
-  .reveal div.orange span.publication-date {
+  .reveal div.val-orange span.publication-date {
     color: #fff;
     font-size: 61%;
-    color: #000;
     clear: both;
     display: block; }
+
+/*********************************************
+	* IMAGES
+	*********************************************/
+.county-map {
+  display: inline-block;
+  width: 366px;
+  height: 400px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/county-map-svg-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/county-map.svg); }
+
+.icon {
+  display: inline-block;
+  width: 176px;
+  height: 162px;
+  background-repeat: no-repeat; }
+
+.volunteer-icon {
+  background-image: url(../../images/volunteer-icon-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/volunteer-icon.svg); }
+
+.groups-icon {
+  background-image: url(../../images/groups-icon-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/groups-icon.svg); }
+
+.money-icon {
+  background-image: url(../../images/money-icon-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/money-icon.svg); }
+
+.time-icon {
+  background-image: url(../../images/time-icon-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/time-icon.svg); }
+
+.plane-icon {
+  background-image: url(../../images/plane-icon-fallback.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/plane-icon.svg); }
 
 /*********************************************
 	* THEMES
