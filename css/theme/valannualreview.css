@@ -38,7 +38,7 @@ body {
   margin: 0 0 20px 0;
   color: #000;
   font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: 100;
+  font-weight: normal;
   line-height: 1;
   letter-spacing: normal;
   text-transform: none;
@@ -291,6 +291,11 @@ body {
     display: none; }
   .reveal .controls div.navigate-down {
     display: none; }
+.reveal strong {
+  font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal; }
+.reveal .controls div.enabled {
+  opacity: 1; }
 
 /*********************************************
 * IMAGES
@@ -367,13 +372,13 @@ input {
 	*********************************************/
 .reveal div.caption-bottom {
   margin-top: 40%;
-  padding: 40px;
+  padding: 30px 40px 40px 40px;
   background-color: whitesmoke; }
 
 .reveal div.caption-top {
   top: 50%;
   margin-top: -380px;
-  padding: 40px;
+  padding: 30px 40px 40px 40px;
   background-color: whitesmoke; }
 
 .reveal div.box-left {
@@ -416,7 +421,7 @@ input {
   color: #fff; }
   .reveal div.val-orange span.organisation-name {
     color: #fff;
-    font-size: 35%;
+    font-size: 32%;
     clear: both;
     display: block; }
   .reveal div.val-orange span.publication-name {
@@ -434,54 +439,6 @@ input {
 /*********************************************
 	* IMAGES
 	*********************************************/
-.county-map {
-  display: inline-block;
-  width: 366px;
-  height: 400px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/county-map-svg-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/county-map.svg); }
-
-.volunteer-icon {
-  display: inline-block;
-  width: 176px;
-  height: 162px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/volunteer-icon-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/volunteer-icon.svg); }
-
-.groups-icon {
-  display: inline-block;
-  width: 176px;
-  height: 162px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/groups-icon-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/groups-icon.svg); }
-
-.money-icon {
-  display: inline-block;
-  width: 176px;
-  height: 162px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/money-icon-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/money-icon.svg); }
-
-.time-icon {
-  display: inline-block;
-  width: 176px;
-  height: 162px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/time-icon-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/time-icon.svg); }
-
-.plane-icon {
-  display: inline-block;
-  width: 176px;
-  height: 162px;
-  background-repeat: no-repeat;
-  background-image: url(../../images/plane-icon-fallback.png);
-  background-image: linear-gradient(transparent, transparent), url(../../images/plane-icon.svg); }
-
 /*********************************************
 	* THEMES
 	*********************************************/

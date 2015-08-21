@@ -21,7 +21,6 @@ $mainColor: #000;
 $headingFont:'HelveticaNeueW01-45Ligh','Helvetica Neue', Arial, sans-serif;
 $headingColor: #000;
 $headingTextShadow: none;
-$headingFontWeight: 100;
 $headingTextTransform: none;
 $headingLineHeight: 1;
 $backgroundColor: whitesmoke;
@@ -74,6 +73,13 @@ $orange: #F29B36;
 		div.navigate-down {
 			display: none;	
 		}
+	}
+	strong {
+		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
+		font-weight: normal;
+	}
+	.controls div.enabled {
+		opacity: 1;
 	}
 }
 
@@ -160,14 +166,14 @@ $orange: #F29B36;
 	
 	.reveal div.caption-bottom {
 		margin-top: 40%;
-		padding: 40px;
+		padding: 30px 40px 40px 40px;
 		background-color: $backgroundColor;
 	}
 	
 	.reveal div.caption-top {
 		top: 50%;
 		margin-top: -380px;
-		padding: 40px;
+		padding: 30px 40px 40px 40px;
 		background-color: $backgroundColor;
 	}
 
@@ -220,7 +226,7 @@ $orange: #F29B36;
 		linear-gradient(transparent, transparent),
 		url(../../images/val-logo.svg);
 		color: #fff;
-		span.organisation-name {color: #fff;font-size: 35%; clear: both; display: block;}
+		span.organisation-name {color: #fff;font-size: 32%; clear: both; display: block;}
 		span.publication-name {	color: #fff;font-size: 61%;clear: both; display: block; font-family: 'HelveticaNeueW01-75Bold';}
 		span.publication-date {	color: #fff;font-size: 61%; clear: both; display: block;}
 	}
@@ -228,62 +234,6 @@ $orange: #F29B36;
 	/*********************************************
 	* IMAGES
 	*********************************************/
-	
-	.county-map {
-		display: inline-block;
-		width: 366px;
-		height: 400px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/county-map-svg-fallback.png);
-		background-image: linear-gradient(transparent, transparent), url(../../images/county-map.svg);
-	}
-
-	.volunteer-icon {
-		display: inline-block;
-		width: 176px;
-		height: 162px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/volunteer-icon-fallback.png);
-		background-image: linear-gradient(transparent, transparent),url(../../images/volunteer-icon.svg);
-	}
-	
-	.groups-icon {
-		display: inline-block;
-		width: 176px;
-		height: 162px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/groups-icon-fallback.png);
-		background-image: linear-gradient(transparent, transparent), url(../../images/groups-icon.svg);
-	}
-	
-	.money-icon {
-		display: inline-block;
-		width: 176px;
-		height: 162px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/money-icon-fallback.png);
-		background-image: linear-gradient(transparent, transparent), url(../../images/money-icon.svg);
-	}
-	
-	.time-icon {
-		display: inline-block;
-		width: 176px;
-		height: 162px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/time-icon-fallback.png);
-		background-image: linear-gradient(transparent, transparent), url(../../images/time-icon.svg);
-	}
-	
-	.plane-icon {
-		display: inline-block;
-		width: 176px;
-		height: 162px;
-		background-repeat: no-repeat;
-		background-image: url(../../images/plane-icon-fallback.png);
-		background-image: linear-gradient(transparent, transparent), url(../../images/plane-icon.svg);
-	}
-	
-	
 
 	/*********************************************
 	* THEMES
