@@ -37,7 +37,7 @@ body {
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
   margin: 0 0 20px 0;
   color: #000;
-  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue Bold', Arial, sans-serif;
   font-weight: normal;
   line-height: 1;
   letter-spacing: normal;
@@ -368,6 +368,14 @@ input {
   -webkit-animation-iteration-count: 1; }
 
 /*********************************************
+	* Accessibility
+	*********************************************/
+.hide {
+  position: absolute !important;
+  top: -9999px !important;
+  left: -9999px !important; }
+
+/*********************************************
 	* CAPTION
 	*********************************************/
 .reveal div.caption-bottom {
@@ -386,10 +394,22 @@ input {
   padding: 40px;
   background-color: whitesmoke; }
 
+.reveal div .read_more {
+  font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue Bold', Arial, sans-serif;
+  white-space: nowrap; }
+  .reveal div .read_more:hover {
+    text-decoration: underline; }
+
+.reveal div.transparent {
+  color: #fff;
+  background-color: transparent; }
+  .reveal div.transparent h1, .reveal div.transparent h2, .reveal div.transparent h3, .reveal div.transparent h4, .reveal div.transparent h5, .reveal div.transparent h6, .reveal div.transparent .read_more {
+    color: #fff; }
+
 .reveal div.dark-blue {
   background-color: #0054a5;
   color: #fff; }
-  .reveal div.dark-blue h1, .reveal div.dark-blue h2, .reveal div.dark-blue h3, .reveal div.dark-blue h4, .reveal div.dark-blue h5, .reveal div.dark-blue h6 {
+  .reveal div.dark-blue h1, .reveal div.dark-blue h2, .reveal div.dark-blue h3, .reveal div.dark-blue h4, .reveal div.dark-blue h5, .reveal div.dark-blue h6, .reveal div.dark-blue .read_more {
     color: #fff; }
 
 .reveal div.light-orange {
@@ -398,7 +418,7 @@ input {
 .reveal div.hibiscus {
   background-color: #cc3366;
   color: #fff; }
-  .reveal div.hibiscus h1, .reveal div.hibiscus h2, .reveal div.hibiscus h3, .reveal div.hibiscus h4, .reveal div.hibiscus h5, .reveal div.hibiscus h6 {
+  .reveal div.hibiscus h1, .reveal div.hibiscus h2, .reveal div.hibiscus h3, .reveal div.hibiscus h4, .reveal div.hibiscus h5, .reveal div.hibiscus h6, .reveal div.hibiscus .read_more {
     color: #fff; }
 
 .reveal div.light-blue {
@@ -420,6 +440,7 @@ input {
   background-image: linear-gradient(transparent, transparent), url(../../images/val-logo.svg);
   color: #fff; }
   .reveal div.val-orange span.organisation-name {
+    font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
     color: #fff;
     font-size: 32%;
     clear: both;
@@ -431,10 +452,21 @@ input {
     display: block;
     font-family: 'HelveticaNeueW01-75Bold'; }
   .reveal div.val-orange span.publication-date {
+    font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
     color: #fff;
     font-size: 61%;
     clear: both;
     display: block; }
+
+.reveal div.quote {
+  text-align: left;
+  padding-left: 110px;
+  background-position: 40px 60px;
+  background-repeat: no-repeat;
+  background-image: url(../../images/quote-mark.png);
+  background-image: linear-gradient(transparent, transparent), url(../../images/quote-mark.svg); }
+  .reveal div.quote strong {
+    font-size: 75%; }
 
 /*********************************************
 	* IMAGES
