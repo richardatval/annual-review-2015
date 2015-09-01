@@ -50,7 +50,7 @@ $orange: #F29B36;
 		div.navigate-left {
 			height: 52px;
 			width: 30px;
-			background: url("../../images/navigate-left.png") no-repeat center center;
+			background: none;
 			left: 2%;
 			border: 0;
 			&.enabled {
@@ -60,7 +60,7 @@ $orange: #F29B36;
 		div.navigate-right {
 			height: 52px;
 			width: 30px;
-			background: url("../../images/navigate-right.png") no-repeat center center;
+			background: none;
 			left: 97%;
 			border: 0;
 			&.enabled {
@@ -208,6 +208,7 @@ $orange: #F29B36;
 		background-color: transparent;
 		h1, h2, h3, h4, h5, h6, .read_more {
 			color: #fff;
+		   text-shadow: 2px 2px 20px #000;
 		}
 	}
 
@@ -247,7 +248,7 @@ $orange: #F29B36;
 		text-align: left;
 		padding-left: 170px;
 		background-color: $orange;
-		background-position: 40px 40px;
+		background-position: 40px 30px;
 		background-repeat: no-repeat;
 		background-image: url(../../images/val-logo-svg-fallback.png);
 		background-image: 

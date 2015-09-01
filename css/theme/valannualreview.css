@@ -274,7 +274,7 @@ body {
   .reveal .controls div.navigate-left {
     height: 52px;
     width: 30px;
-    background: url("../../images/navigate-left.png") no-repeat center center;
+    background: none;
     left: 2%;
     border: 0; }
     .reveal .controls div.navigate-left.enabled {
@@ -282,7 +282,7 @@ body {
   .reveal .controls div.navigate-right {
     height: 52px;
     width: 30px;
-    background: url("../../images/navigate-right.png") no-repeat center center;
+    background: none;
     left: 97%;
     border: 0; }
     .reveal .controls div.navigate-right.enabled {
@@ -406,7 +406,8 @@ input {
   color: #fff;
   background-color: transparent; }
   .reveal div.transparent h1, .reveal div.transparent h2, .reveal div.transparent h3, .reveal div.transparent h4, .reveal div.transparent h5, .reveal div.transparent h6, .reveal div.transparent .read_more {
-    color: #fff; }
+    color: #fff;
+    text-shadow: 2px 2px 20px #000; }
 
 .reveal div.dark-blue {
   background-color: #0054a5;
@@ -436,7 +437,7 @@ input {
   text-align: left;
   padding-left: 170px;
   background-color: #F29B36;
-  background-position: 40px 40px;
+  background-position: 40px 30px;
   background-repeat: no-repeat;
   background-image: url(../../images/val-logo-svg-fallback.png);
   background-image: linear-gradient(transparent, transparent), url(../../images/val-logo.svg);
