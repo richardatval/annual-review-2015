@@ -96,6 +96,16 @@ $orange: #F29B36;
 	* Buttons
 	*********************************************/
 	
+	ul.btn-list {
+		clear: both;
+		list-style: none;
+		margin-left: 0;
+		padding-left: 0;
+		li {
+			float: left;
+		}
+	}
+	
 	a.btn {
 		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 		font-size: 75%;
@@ -109,12 +119,7 @@ $orange: #F29B36;
 			background: $linkColorHover;
 			color: #fff;
 		}
-	}
-
-	input {
-		margin-top: 20px;
-		font-size: 75%;
-		font-family: $mainFont;
+				z-index: 1000;
 	}
 
 	// Animations

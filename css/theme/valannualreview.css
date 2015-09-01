@@ -309,6 +309,14 @@ body {
 /*********************************************
 	* Buttons
 	*********************************************/
+ul.btn-list {
+  clear: both;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+  ul.btn-list li {
+    float: left; }
+
 a.btn {
   font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
   font-size: 75%;
@@ -317,15 +325,11 @@ a.btn {
   background: black;
   border-radius: 5px;
   color: #fff;
-  text-transform: capitalize; }
+  text-transform: capitalize;
+  z-index: 1000; }
   a.btn:hover {
     background: #333333;
     color: #fff; }
-
-input {
-  margin-top: 20px;
-  font-size: 75%;
-  font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif; }
 
 @keyframes example {
   0% {
