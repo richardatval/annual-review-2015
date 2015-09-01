@@ -106,12 +106,14 @@ $orange: #F29B36;
 		color: #fff;
 		text-transform: capitalize;
 		&:hover {
+			background: $linkColorHover;
 			color: #fff;
 		}
 	}
 
 	input {
-		font-size: 100%;
+		margin-top: 20px;
+		font-size: 75%;
 		font-family: $mainFont;
 	}
 
@@ -268,6 +270,17 @@ $orange: #F29B36;
 		url(../../images/quote-mark.svg);
 		strong {
 			font-size: 75%;
+		}
+		&.dark-blue {
+			strong {
+			a {
+				color: #fff;
+			}
+			a:hover {
+				color: darken(#fff, 20%);
+				text-decoration: underline;
+			}
+		}
 		}
 	}
 	
