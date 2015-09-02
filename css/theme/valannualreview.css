@@ -327,8 +327,26 @@ a.btn {
   color: #fff;
   text-transform: capitalize;
   z-index: 1000; }
+  a.btn.facebook {
+    background-position: center left;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/facebook-icon-svg-fallback.png);
+    background-image: linear-gradient(transparent, transparent), url(../../images/facebook-icon.svg); }
+  a.btn.twitter {
+    background-position: center left;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/twitter-icon-svg-fallback.png);
+    background-image: linear-gradient(transparent, transparent), url(../../images/twitter-icon.svg); }
+  a.btn.email {
+    background-position: center left;
+    padding-left: 40px;
+    background-repeat: no-repeat;
+    background-image: url(../../images/email-icon-svg-fallback.png);
+    background-image: linear-gradient(transparent, transparent), url(../../images/email-icon.svg); }
   a.btn:hover {
-    background: #333333;
+    background-color: #333333;
     color: #fff; }
 
 @keyframes example {

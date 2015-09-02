@@ -115,8 +115,35 @@ $orange: #F29B36;
 		border-radius: 5px;
 		color: #fff;
 		text-transform: capitalize;
+		&.facebook {
+			background-position: center left;
+			padding-left: 40px;
+			background-repeat: no-repeat;
+			background-image: url(../../images/facebook-icon-svg-fallback.png);
+			background-image: 
+			linear-gradient(transparent, transparent),
+			url(../../images/facebook-icon.svg);
+		}
+		&.twitter {
+			background-position: center left;
+			padding-left: 40px;
+			background-repeat: no-repeat;
+			background-image: url(../../images/twitter-icon-svg-fallback.png);
+			background-image: 
+			linear-gradient(transparent, transparent),
+			url(../../images/twitter-icon.svg);
+		}
+		&.email {
+			background-position: center left;
+			padding-left: 40px;
+			background-repeat: no-repeat;
+			background-image: url(../../images/email-icon-svg-fallback.png);
+			background-image: 
+			linear-gradient(transparent, transparent),
+			url(../../images/email-icon.svg);
+		}
 		&:hover {
-			background: $linkColorHover;
+			background-color: $linkColorHover;
 			color: #fff;
 		}
 				z-index: 1000;
