@@ -219,6 +219,9 @@ $orange: #F29B36;
 		margin-top: -380px;
 		padding: 30px 40px 40px 40px;
 		background-color: $backgroundColor;
+		a {
+		z-index: 1000;
+		}
 	}
 
 	.reveal div.box-left {

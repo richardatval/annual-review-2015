@@ -412,6 +412,8 @@ a.btn {
   margin-top: -380px;
   padding: 30px 40px 40px 40px;
   background-color: whitesmoke; }
+  .reveal div.caption-top a {
+    z-index: 1000; }
 
 .reveal div.box-left {
   width: 50%;
