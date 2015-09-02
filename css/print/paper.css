@@ -46,7 +46,7 @@
 	   Consider using a serif font for readability. */
 	body, p, td, li, div {
 		font-size: 20pt!important;
-		font-family: Georgia, "Times New Roman", Times, serif !important;
+		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 		color: #000;
 	}
 
@@ -57,7 +57,7 @@
 		color: #000!important;
 		height: auto;
 		line-height: normal;
-		font-family: Georgia, "Times New Roman", Times, serif !important;
+		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 		text-shadow: 0 0 0 #000 !important;
 		text-align: left;
 		letter-spacing: normal;

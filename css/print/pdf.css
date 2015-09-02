@@ -21,6 +21,7 @@ body {
 	padding: 0;
 	float: none !important;
 	overflow: visible;
+	font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 }
 
 html {
