@@ -278,13 +278,13 @@ body {
     background: url("../../images/navigate-left.png") no-repeat center center;
     left: 2%;
     border: 0; }
-    z .reveal .controls div.navigate-left.enabled {
+    .reveal .controls div.navigate-left.enabled {
       border-right-color: #000; }
   .reveal .controls div.navigate-right {
     height: 52px;
     width: 30px;
     background: url("../../images/navigate-right.png") no-repeat center center;
-    left: 97%;
+    left: 96%;
     border: 0; }
     .reveal .controls div.navigate-right.enabled {
       border-left-color: #000; }
@@ -404,18 +404,17 @@ a.btn {
 	*********************************************/
 .reveal div.caption-bottom {
   margin-top: 40%;
+  margin-left: 20px;
+  margin-right: 20px;
   padding: 30px 40px 40px 40px;
   background-color: whitesmoke; }
 
 .reveal div.caption-top {
   top: 50%;
+  margin-left: 20px;
+  margin-right: 20px;
   margin-top: -380px;
   padding: 30px 40px 40px 40px;
-  background-color: whitesmoke; }
-
-.reveal div.box-left {
-  width: 50%;
-  padding: 40px;
   background-color: whitesmoke; }
 
 .reveal div .read_more {
@@ -466,19 +465,19 @@ a.btn {
   .reveal div.val-orange span.organisation-name {
     font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
     color: #fff;
-    font-size: 32%;
+    font-size: 30%;
     clear: both;
     display: block; }
   .reveal div.val-orange span.publication-name {
     color: #fff;
-    font-size: 61%;
+    font-size: 56%;
     clear: both;
     display: block;
     font-family: 'HelveticaNeueW01-75Bold'; }
   .reveal div.val-orange span.publication-date {
     font-family: 'HelveticaNeueW01-45Ligh', 'Helvetica Neue', Arial, sans-serif;
     color: #fff;
-    font-size: 61%;
+    font-size: 59%;
     clear: both;
     display: block; }
 
