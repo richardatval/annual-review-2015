@@ -440,7 +440,7 @@ a.btn {
   text-align: left;
   padding-left: 170px;
   background-color: #F29B36;
-  background-position: 40px 40px;
+  background-position: 40px 30px;
   background-repeat: no-repeat;
   background-image: url(../../images/val-logo-svg-fallback.png);
   background-image: linear-gradient(transparent, transparent), url(../../images/val-logo.svg);
