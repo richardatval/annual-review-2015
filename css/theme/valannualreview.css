@@ -269,6 +269,7 @@ body {
   color: #000; }
 
 .reveal .controls {
+  z-index: 0;
   width: 100%;
   bottom: 45%; }
   .reveal .controls div.navigate-left {
@@ -277,7 +278,7 @@ body {
     background: url("../../images/navigate-left.png") no-repeat center center;
     left: 2%;
     border: 0; }
-    .reveal .controls div.navigate-left.enabled {
+    z .reveal .controls div.navigate-left.enabled {
       border-right-color: #000; }
   .reveal .controls div.navigate-right {
     height: 52px;
@@ -325,8 +326,7 @@ a.btn {
   background: black;
   border-radius: 5px;
   color: #fff;
-  text-transform: capitalize;
-  z-index: 1000; }
+  text-transform: capitalize; }
   a.btn.facebook {
     background-position: center left;
     padding-left: 40px;
@@ -412,8 +412,6 @@ a.btn {
   margin-top: -380px;
   padding: 30px 40px 40px 40px;
   background-color: whitesmoke; }
-  .reveal div.caption-top a {
-    z-index: 1000; }
 
 .reveal div.box-left {
   width: 50%;
