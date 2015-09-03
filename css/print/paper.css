@@ -1,3 +1,4 @@
+<<<<<<< Local Changes
 /* Default Print Stylesheet Template
    by Rob Glazebrook of CSSnewbie.com
    Last Updated: June 4, 2008
@@ -17,6 +18,7 @@
 		width: auto;
 		height: auto;
 		overflow: visible;
+		font-family: 'HelveticaNeueW01-75Bold', 'Helvetica Neue', Arial, sans-serif;
 	}
 	body {
 		background: #fff;
@@ -199,4 +201,5 @@
 		font-size: 0.8em;
 	}
 
-}
+}=======
+>>>>>>> External Changes
